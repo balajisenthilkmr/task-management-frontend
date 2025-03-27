@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://task-management-backend-lkb3.onrender.com/api';
 
 // Add a request interceptor to add the auth token to every request
 axios.interceptors.request.use(
